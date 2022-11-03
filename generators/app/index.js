@@ -1,7 +1,6 @@
 'use strict';
 
 const Generator = require('yeoman-generator');
-const yosay = require('yosay');
 const path = require('path');
 const _ = require('lodash');
 
@@ -154,10 +153,6 @@ module.exports = class extends Generator {
                 rimraf: '^3.0.2'
             }
         )
-    }
-
-    end() {
-        this.log(yosay(`It's your showtime.`))
     }
 
     getAuthor() {
