@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "Node"
+    },
+    "include": [
+        "vite.config.ts",
+        "./src/index.ts"
+    ]
+}
