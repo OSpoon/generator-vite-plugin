@@ -5,7 +5,7 @@
 ## Install
 
 ```js
-npm i -D # <%= githubRepoName %>
+npm i -D <%= githubRepoName %>
 ```
 
 Add plugin to your vite.config.ts:
