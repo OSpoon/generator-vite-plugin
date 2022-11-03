@@ -151,9 +151,7 @@ module.exports = class extends Generator {
                 tsup: '^6.3.0',
                 typescript: '^4.6.4',
                 vite: '^3.2.0',
-                rimraf: '^3.0.2',
-                'release-it': '^15.5.0',
-                'git-cz': '^4.9.0',
+                rimraf: '^3.0.2'
             }
         )
     }
